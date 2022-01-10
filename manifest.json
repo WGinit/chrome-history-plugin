@@ -1,0 +1,23 @@
+{
+  "name": "Chrome历史浏览记录",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "查看Chrome最近历史浏览记录",
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "点击查看"
+  },
+  "homepage_url": "https://www.misspao.net/",
+  "permissions": [
+    "history",
+    "declarativeContent",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
